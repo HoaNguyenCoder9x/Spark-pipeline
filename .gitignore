@@ -1,0 +1,5 @@
+spark_venv
+spark-warehouse
+spark_example.ipynb
+varriable.py
+__pycache__
