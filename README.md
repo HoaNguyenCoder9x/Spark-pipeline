@@ -7,10 +7,26 @@
 ## Sprint 1:
 ### Build a simple data pipeline using pyspark engine 
 
-**Extract**: Read file csv from local file system
+1. **Extract**: Read file csv from local file system
 
-**Transform**: Rename Columns
+2. **Transform**: Rename Columns
 
-**Load**: Convert pyspark_df to parquet partition file and reload to file system
+3. **Load**: Convert pyspark_df to parquet partition file and reload to file system
 
 
+## Sprint 2:
+### Pipeline development
+1. **Extract** : 
+    * Build reuse pipeline to get data from csv, txt , xlsx
+2. **Transform** : Do some common transform
+    * Add new columns
+    * Updated columns
+    * Handling N/A
+    * Filtering
+    * Handling Duplicate data
+    * Join
+3. **Load** : 
+    * Write to file storage ( file system, HDFS, sFTP )
+    * Write partition
+    * Write to database ( mysql, postgre, mssql )
+    * Write to NoSQL ( MongoDB )
